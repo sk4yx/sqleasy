@@ -19,6 +19,8 @@ def insertValue(database, table, arg1, arg2):
 def getValue(database, arg1, table):
 def changeValue(database, table, arg1, value1, arg2, value2):
 def deleteValue(database, table, arg1, value1)
-def addColumnInTable(database, table, column, arg1):
+def addColumnInTable(database, table, column, arg1)
 def deleteTable(database, table):
 ```
+
+# made by sk4yx
