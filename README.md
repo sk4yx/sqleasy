@@ -1,6 +1,7 @@
 # sqleasy
 A simple SQL system for beginners
 
+```python
                 l)L                                  
                  l)                                  
  s)SSSS  q)QQQ   l)  e)EEEEE a)AAAA   s)SSSS y)   YY 
@@ -20,3 +21,4 @@ def changeValue(database, table, arg1, value1, arg2, value2):
 def deleteValue(database, table, arg1, value1)
 def addColumnInTable(database, table, column, arg1):
 def deleteTable(database, table):
+```
