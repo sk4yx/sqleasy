@@ -26,8 +26,9 @@ def getValue(database, arg1, table):
 	cursor = db.cursor()
 	cursor.execute("SELECT " +arg1+ " FROM " + table + ";")
 	for linha in cursor.fetchall():
-		print(linha)
+		linhas = linha
 	db.close()
+	return linhas
 
 def changeValue(database, table, arg1, value1, arg2, value2):
 	db = sqlite3.connect(database+".db")
